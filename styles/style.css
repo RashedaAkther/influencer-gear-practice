@@ -1,0 +1,126 @@
+/* font-family styles import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;600;700;800&display=swap');
+
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> */
+
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> */
+
+/* primary css */
+.primary-heading-color {
+    color: #3A3A3A;
+}
+
+/* main css start */
+/* heading section styles */
+header {
+    padding: 0px 100px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-icon-1 {
+    width: 24px;
+    height: 24px;
+}
+
+/* banner section styles starts */
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.banner-heading {
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-para {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.banner-btn {
+    border-radius: 35px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: .8rem;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.banner-icon {
+    width: 18px;
+    height: 18px;
+
+}
+.banner-img-border {
+    width: 475px;
+    height: 475px;
+    border-radius: 475px;
+    border: 3px solid var(--brand-purple-100, #F1E4FF);
+    display: grid;
+        justify-content: center;
+        align-items: center;
+}
+
+.banner-img{
+   display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 284px;
+    background: url(<path-to-image>), lightgray -256.697px -123px / 220.317% 154.831% no-repeat;
+    border-radius: 475px;
+
+}
+/* section sponsors styles starts */
+#sponsors{
+  padding: 100px;
+  margin: auto;
+}
+
+.sponsors-container{
+    display: flex;
+        justify-content: space-around;
+       
+}
